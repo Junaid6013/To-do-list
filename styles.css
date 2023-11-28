@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.user-input,
+.task-input {
+    margin-bottom: 10px;
+}
+
+.user-input label,
+.task-input label {
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    font-family: 'Courier New', monospace; /* Change this to your preferred font */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:/Users/Junaid Ahmed/Downloads/cliff-540117.jpg'); /* Replace this path with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Rest of your existing styles remain unchanged */

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Manager</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=YOUR_API_KEY"></script>
 </head>
 <body>
 
@@ -14,14 +15,19 @@
         <div class="user-input">
             <label for="userName">User Name:</label>
             <input type="text" id="userName" placeholder="Enter your name">
+            <button onclick="setUsername()">Set User</button>
+            <button onclick="findUser()">Find User</button>
+            <button onclick="deleteUser()">Delete User</button>
+            
+
         </div>
 
         <div class="task-input">
             <label for="taskInput">Add Task:</label>
             <input type="text" id="taskInput" placeholder="Enter a new task" onkeydown="if(event.key === 'Enter') addTask()">
         </div>
-
         <ul id="taskList"></ul>
+        <audio id="sound" src="path/to/welcome/sound.mp3"></audio>
     </div>
 
     <script src="script.js"></script>

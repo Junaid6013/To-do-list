@@ -51,5 +51,15 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+/* Existing styles... */
+button {
+    /* Your existing button styles... */
+    cursor: pointer; /* Set the cursor to a hand pointer */
+}
 
-/* Rest of your existing styles remain unchanged */
+button:hover {
+    background-color: #3498db; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+
